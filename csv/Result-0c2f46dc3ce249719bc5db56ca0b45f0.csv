@@ -1,0 +1,333 @@
+ArticleId,ArticlePos,ArticleSubGroup,ArticleGroupId,ArticleGroupName,ArticleGroupBrand,ArticleGroupKind,CatalogusDefault,CatalogusHeader,CatalogusFooter,ExactHeader,ExactFooter,ExactSplit1,ExactSplit2,TablePropertiesToSpecTransposed,TablePropertiesTransposed,ArticleAssetsDocsDesc,ArticleAssetsDocsType,ArticleAssetsDocsFile,RelatedArticles,Level1,Level2,Level3,Level4,ArticleNumber,TypeNumber,ArticleGtin,ManufacturerArticleGtin,CbsNumber,TableProperties,TablePropertiesToSpec,ArticleAssetsIconsDesc,GroupAssetsImages,GroupAssetsLogos,GroupAssetsDocs,ArticleAssetsIcons,ArticleAssetsImages,ArticleAssetsLogos,ArticleAssetsDocsUrl,PrdState,PrdLifeTime
+3637752,1,,1436245,"Perceuse industrielle","Huvema Machine tools","K1 - Industrie des machines","Machine lourde pour la production, l'industrie. La machine est dotée d'une broche sans jeu et convient à une installation de production, car la tête de la machine peut être réglée à la hauteur d'un convoyeur à rouleaux de production. La machine est équipée d'une plaque moteur robuste et d'un entraînement par courroie crantée. Cela garantit un très faible niveau de bruit et l'absence de vibrations. <br> <br> <br>Propriétés :<br>Support moteur robuste<br>Pied lourd avec rainures en T<br>Arrêt d'urgence au front<br>Protection mandrin universelle <br>Table pivotante<br>Déplacement vertical de la tête par levier, unique<br>Profondeur de forage facilement réglable","Machine lourde pour la production, l'industrie. La machine est dotée d'une broche sans jeu et convient à une installation de production, car la tête de la machine peut être réglée à la hauteur d'un convoyeur à rouleaux de production. La machine est équipée d'une plaque moteur robuste et d'un entraînement par courroie crantée. Cela garantit un très faible niveau de bruit et l'absence de vibrations.","Propriétés :<br>Support moteur robuste<br>Pied lourd avec rainures en T<br>Arrêt d'urgence au front<br>Protection mandrin universelle <br>Table pivotante<br>Déplacement vertical de la tête par levier, unique<br>Profondeur de forage facilement réglable",,,,,,"<table>
+</tr>
+<th>Capacité de perçage</th>
+<th>Course de broche</th>
+<th>Diamètre de la colonne</th>
+<th>Distance max. broche-table</th>
+<th>Distance broche / plaque de base</th>
+<th>Puissance du moteur</th>
+<th>Gamme de vitesse de la broche</th>
+<th>Dimensions de la table</th>
+<th>Nombre de marches</th>
+<th>Dimensions d'emballage</th>
+<th>Dimensions du pied</th>
+<th>Hauteur</th>
+<th>Fréquence</th>
+<th>Cône de la broche</th>
+<th>Distance broche-colonne</th>
+<th>Poids</th>
+<th>Tension</th>
+</tr>
+<tr>
+<td>16 mm</td>
+<td>80 mm</td>
+<td>70 mm</td>
+<td>340 mm</td>
+<td>570 mm</td>
+<td>550 W</td>
+<td>200-2400 tr/min</td>
+<td>267 x 230 mm</td>
+<td>5 pièces</td>
+<td>1055 x 610 x 380 mm</td>
+<td>490 x 310 mm</td>
+<td>1000 mm</td>
+<td>50 Hz</td>
+<td>B16</td>
+<td>360 mm</td>
+<td>83 kg</td>
+<td>400 V</td>
+</tr>
+</table>",,,,"id=2643095, pos=1, type=Accessoire optionnel
+id=2643098, pos=2, type=Accessoire optionnel
+id=2641776, pos=3, type=Accessoire optionnel
+id=2641770, pos=4, type=Accessoire optionnel
+id=2641777, pos=5, type=Accessoire optionnel
+id=2641768, pos=6, type=Accessoire optionnel
+id=2641767, pos=7, type=Accessoire optionnel
+id=2641759, pos=8, type=Accessoire optionnel
+","Machines travail des métaux",Perceuses,"Perceuses avec courroie d'entraînement",Professionnel,11035,"HU 16 N Industry",8718242540698,,,"<table>
+<tr><td>Capacité de perçage</td><td>16 mm</td></tr>
+<tr><td>Course de broche</td><td>80 mm</td></tr>
+<tr><td>Diamètre de la colonne</td><td>70 mm</td></tr>
+<tr><td>Distance max. broche-table</td><td>340 mm</td></tr>
+<tr><td>Distance broche / plaque de base</td><td>570 mm</td></tr>
+<tr><td>Puissance du moteur</td><td>550 W</td></tr>
+<tr><td>Gamme de vitesse de la broche</td><td>200-2400 tr/min</td></tr>
+<tr><td>Dimensions de la table</td><td>267 x 230 mm</td></tr>
+<tr><td>Nombre de marches</td><td>5 pièces</td></tr>
+<tr><td>Dimensions d'emballage</td><td>1055 x 610 x 380 mm</td></tr>
+<tr><td>Dimensions du pied</td><td>490 x 310 mm</td></tr>
+<tr><td>Hauteur</td><td>1000 mm</td></tr>
+<tr><td>Fréquence</td><td>50 Hz</td></tr>
+<tr><td>Cône de la broche</td><td>B16</td></tr>
+<tr><td>Distance broche-colonne</td><td>360 mm</td></tr>
+<tr><td>Poids</td><td>83 kg</td></tr>
+<tr><td>Tension</td><td>400 V</td></tr>
+</table>",,"Pallet vervoer,
+Zelf te installeren,
+1 jaar garantie,
+Geschikt voor industrieel gebruik,
+K2 - Machines retail",,https://www.ez-catalog.nl/Asset/95072fb7e003427e958ae914d630a4b6/CatalogueLogo/Huvema-Machine-tools.png,,"https://www.ez-catalog.nl/Asset/38ea372ee2b4465cac2a036b78171fc8/CatalogueIcon/huvema-picto-vervoer-pallet.png,
+https://www.ez-catalog.nl/Asset/64c9a37b7b9747319d090228dc8e44d6/CatalogueIcon/huvema-picto-installeren-zelf.png,
+https://www.ez-catalog.nl/Asset/b894b4e7e9274634b3684ee9b3b2e627/CatalogueIcon/huvema-picto-garantie-1j.png,
+https://www.ez-catalog.nl/Asset/45d983d4cbad4211a04498edd400adef/CatalogueIcon/huvema-picto-lijn-industrial1.png,
+https://www.ez-catalog.nl/Asset/22be6d97c61448869298f00126d1eb27/CatalogueIcon/HUV01100.png","https://www.ez-catalog.nl/Asset/44324b88924b47bc9d59aea72b60b127/ImageFullSize/11035.jpg,
+https://www.ez-catalog.nl/Asset/770dad2792604ca2903c9423101519e8/ImageFullSize/11035a.jpg,
+https://www.ez-catalog.nl/Asset/0f981e14377c495ba8335635ce46ea3c/ImageFullSize/11035b.jpg,
+https://www.ez-catalog.nl/Asset/867ea83a591a44068c24da6c2789ea93/ImageFullSize/11035c.jpg,
+https://www.ez-catalog.nl/Asset/04b4552f4de1469d955afc4f7a0f3c7b/ImageFullSize/11035d.jpg,
+https://www.ez-catalog.nl/Asset/543b65dfe34943f0bb68647c3778634c/ImageFullSize/11035e.jpg,
+https://www.ez-catalog.nl/Asset/cf4ba99683bc45b3a6151eaa149afe0c/ImageFullSize/11035f.jpg,
+https://www.ez-catalog.nl/Asset/2791ceace1fb4679871041f888f245d5/ImageFullSize/11035g.jpg,
+https://www.ez-catalog.nl/Asset/27c19920aecf45f981818fdd26b4eae3/ImageFullSize/11035h.jpg,
+https://www.ez-catalog.nl/Asset/bb2404ab138d4a66bdeeeeef7634af69/ImageFullSize/11035i.jpg,
+https://www.ez-catalog.nl/Asset/52de42cda5714802bd9c30b15eca5f71/ImageFullSize/11035j.jpg,
+https://www.ez-catalog.nl/Asset/d341468319a14033bd59c0b3f7004364/ImageFullSize/11035k.jpg,
+https://www.ez-catalog.nl/Asset/4b8ffa5ad2d841d6b9b7ffe6a6c17942/ImageFullSize/11035l.jpg,
+https://www.ez-catalog.nl/Asset/7aad18a9f418486a9b1fb4ac01dbc953/ImageFullSize/11035m.jpg,
+https://www.ez-catalog.nl/Asset/211402f7e74d4160aa573d27105db045/ImageFullSize/11035n.jpg",,,Active,Active
+3637753,1,,1435577,"Perceuse industrielle","Huvema Machine tools","K1 - Industrie des machines","Machine lourde pour la production, l'industrie. La machine est dotée d'une broche sans jeu et convient à une installation de production, car la tête de la machine peut être réglée à la hauteur d'un convoyeur à rouleaux de production. La machine est équipée d'une plaque moteur robuste et d'un entraînement par courroie crantée. Cela garantit un très faible niveau de bruit et l'absence de vibrations. <br> <br> <br>Propriétés :<br>Support moteur robuste<br>Pied lourd avec rainures en T<br>Arrêt d'urgence au front<br>Protection mandrin universelle <br>Table pivotante<br>Déplacement vertical de la tête par levier, unique<br>Profondeur de forage facilement réglable<br>Eclairage LED","Machine lourde pour la production, l'industrie. La machine est dotée d'une broche sans jeu et convient à une installation de production, car la tête de la machine peut être réglée à la hauteur d'un convoyeur à rouleaux de production. La machine est équipée d'une plaque moteur robuste et d'un entraînement par courroie crantée. Cela garantit un très faible niveau de bruit et l'absence de vibrations.","Propriétés :<br>Support moteur robuste<br>Pied lourd avec rainures en T<br>Arrêt d'urgence au front<br>Protection mandrin universelle <br>Table pivotante<br>Déplacement vertical de la tête par levier, unique<br>Profondeur de forage facilement réglable<br>Eclairage LED",,,,,,"<table>
+</tr>
+<th>Capacité de perçage</th>
+<th>Course de broche</th>
+<th>Diamètre de la colonne</th>
+<th>Distance max. broche-table</th>
+<th>Distance broche / plaque de base</th>
+<th>Puissance du moteur</th>
+<th>Gamme de vitesse de la broche</th>
+<th>Dimensions de la table</th>
+<th>Nombre de marches</th>
+<th>Dimensions d'emballage</th>
+<th>Dimensions du pied</th>
+<th>Hauteur</th>
+<th>Fréquence</th>
+<th>Cône de la broche</th>
+<th>Poids</th>
+<th>Tension</th>
+<th>Distance broche-colonne</th>
+</tr>
+<tr>
+<td>20 mm</td>
+<td>100 mm</td>
+<td>70 mm</td>
+<td>300 mm</td>
+<td>540 mm</td>
+<td>750 W</td>
+<td>200-2400 tr/min</td>
+<td>283 x 248 mm</td>
+<td>5 pièces</td>
+<td>1055 x 610 x 380 mm</td>
+<td>520 x 345 mm</td>
+<td>1010 mm</td>
+<td>50 Hz</td>
+<td>MT2</td>
+<td>105 kg</td>
+<td>400 V</td>
+<td>410 mm</td>
+</tr>
+</table>",,,,"id=2643095, pos=1, type=Accessoire optionnel
+id=2643098, pos=2, type=Accessoire optionnel
+id=2641776, pos=3, type=Accessoire optionnel
+id=2641770, pos=4, type=Accessoire optionnel
+id=2641777, pos=5, type=Accessoire optionnel
+id=2641768, pos=6, type=Accessoire optionnel
+id=2641767, pos=7, type=Accessoire optionnel
+id=2641759, pos=8, type=Accessoire optionnel
+","Machines travail des métaux",Perceuses,"Perceuses avec courroie d'entraînement",Professionnel,11036,"HU 20 Industry",8718242540704,,,"<table>
+<tr><td>Capacité de perçage</td><td>20 mm</td></tr>
+<tr><td>Course de broche</td><td>100 mm</td></tr>
+<tr><td>Diamètre de la colonne</td><td>70 mm</td></tr>
+<tr><td>Distance max. broche-table</td><td>300 mm</td></tr>
+<tr><td>Distance broche / plaque de base</td><td>540 mm</td></tr>
+<tr><td>Puissance du moteur</td><td>750 W</td></tr>
+<tr><td>Gamme de vitesse de la broche</td><td>200-2400 tr/min</td></tr>
+<tr><td>Dimensions de la table</td><td>283 x 248 mm</td></tr>
+<tr><td>Nombre de marches</td><td>5 pièces</td></tr>
+<tr><td>Dimensions d'emballage</td><td>1055 x 610 x 380 mm</td></tr>
+<tr><td>Dimensions du pied</td><td>520 x 345 mm</td></tr>
+<tr><td>Hauteur</td><td>1010 mm</td></tr>
+<tr><td>Fréquence</td><td>50 Hz</td></tr>
+<tr><td>Cône de la broche</td><td>MT2</td></tr>
+<tr><td>Poids</td><td>105 kg</td></tr>
+<tr><td>Tension</td><td>400 V</td></tr>
+<tr><td>Distance broche-colonne</td><td>410 mm</td></tr>
+</table>",,"Pallet vervoer,
+Zelf te installeren,
+1 jaar garantie,
+Geschikt voor industrieel gebruik,
+K2 - Machines retail",,https://www.ez-catalog.nl/Asset/95072fb7e003427e958ae914d630a4b6/CatalogueLogo/Huvema-Machine-tools.png,,"https://www.ez-catalog.nl/Asset/38ea372ee2b4465cac2a036b78171fc8/CatalogueIcon/huvema-picto-vervoer-pallet.png,
+https://www.ez-catalog.nl/Asset/64c9a37b7b9747319d090228dc8e44d6/CatalogueIcon/huvema-picto-installeren-zelf.png,
+https://www.ez-catalog.nl/Asset/b894b4e7e9274634b3684ee9b3b2e627/CatalogueIcon/huvema-picto-garantie-1j.png,
+https://www.ez-catalog.nl/Asset/45d983d4cbad4211a04498edd400adef/CatalogueIcon/huvema-picto-lijn-industrial1.png,
+https://www.ez-catalog.nl/Asset/22be6d97c61448869298f00126d1eb27/CatalogueIcon/HUV01100.png","https://www.ez-catalog.nl/Asset/7b4680a0038544b3bdf16caca6c56e01/ImageFullSize/11036.jpg,
+https://www.ez-catalog.nl/Asset/1f581d86581340388cf7b8826b58d405/ImageFullSize/11036a.jpg,
+https://www.ez-catalog.nl/Asset/9dce7592a2ff440f9e751f4dbe1f62aa/ImageFullSize/11036b.jpg,
+https://www.ez-catalog.nl/Asset/bcfb975234664ee594ecc11895e724a1/ImageFullSize/11036c.jpg,
+https://www.ez-catalog.nl/Asset/0948fcef8bff4f4ab7c2d6d5a7b455e0/ImageFullSize/11036d.jpg,
+https://www.ez-catalog.nl/Asset/4d8e6c8976ea48899d445d655a410d7c/ImageFullSize/11036e.jpg,
+https://www.ez-catalog.nl/Asset/b400aa255e2c403bbaf1fb7e3ab4dcc8/ImageFullSize/11036f.jpg,
+https://www.ez-catalog.nl/Asset/96ba50c32cfe4746a9a8c273696e0d63/ImageFullSize/11036g.jpg,
+https://www.ez-catalog.nl/Asset/510d36b40e5844d0bef3a782a9d97252/ImageFullSize/11036h.jpg,
+https://www.ez-catalog.nl/Asset/e1977ce742f54ce7ac9a1c2af30d21c5/ImageFullSize/11036i.jpg,
+https://www.ez-catalog.nl/Asset/c06a03fe68f94e1b81c53ff0dc7a412d/ImageFullSize/11036j.jpg,
+https://www.ez-catalog.nl/Asset/1432b2b77fd6453bb210cee5f4dcd701/ImageFullSize/11036k.jpg,
+https://www.ez-catalog.nl/Asset/ea5db9a05ae746a084208bb23787db7b/ImageFullSize/11036l.jpg,
+https://www.ez-catalog.nl/Asset/52660da825b44f7d8f1dc03260836dbd/ImageFullSize/11036m.jpg,
+https://www.ez-catalog.nl/Asset/33218a9411fb4daf820d8647fecdd023/ImageFullSize/11036n.jpg",,,Active,Active
+3637754,1,,1390860,"Perceuse industrielle","Huvema Machine tools","K1 - Industrie des machines","Machine lourde pour la production, l'industrie. La machine est dotée d'une broche sans jeu et convient à une installation de production, car la tête de la machine peut être réglée à la hauteur d'un convoyeur à rouleaux de production. La machine est équipée d'une plaque moteur robuste et d'un entraînement par courroie crantée. Cela garantit un très faible niveau de bruit et l'absence de vibrations. <br> <br>Propriétés :<br>Support moteur robuste<br>Pied lourd avec rainures en T<br>Arrêt d'urgence au front<br>Protection mandrin universelle <br>Déplacement vertical de la tête, unique<br>Profondeur de forage facilement réglable<br>Eclairage LED","Machine lourde pour la production, l'industrie. La machine est dotée d'une broche sans jeu et convient à une installation de production, car la tête de la machine peut être réglée à la hauteur d'un convoyeur à rouleaux de production. La machine est équipée d'une plaque moteur robuste et d'un entraînement par courroie crantée. Cela garantit un très faible niveau de bruit et l'absence de vibrations.","Propriétés :<br>Support moteur robuste<br>Pied lourd avec rainures en T<br>Arrêt d'urgence au front<br>Protection mandrin universelle <br>Déplacement vertical de la tête, unique<br>Profondeur de forage facilement réglable<br>Eclairage LED",,,,,,"<table>
+</tr>
+<th>Capacité de perçage</th>
+<th>Course de broche</th>
+<th>Diamètre de la colonne</th>
+<th>Distance max. broche-table</th>
+<th>Distance broche / plaque de base</th>
+<th>Puissance du moteur</th>
+<th>Gamme de vitesse de la broche</th>
+<th>Dimensions de la table</th>
+<th>Nombre de marches</th>
+<th>Dimensions d'emballage</th>
+<th>Dimensions du pied</th>
+<th>Hauteur</th>
+<th>Fréquence</th>
+<th>Cône de la broche</th>
+<th>Poids</th>
+<th>Distance broche-colonne</th>
+<th>Tension</th>
+</tr>
+<tr>
+<td>25 mm</td>
+<td>100 mm</td>
+<td>80 mm</td>
+<td>850 mm</td>
+<td>1160 mm</td>
+<td>750 W</td>
+<td>200-2400 tr/min</td>
+<td>320 x 320 mm</td>
+<td>5 pièces</td>
+<td>1525 x 655 x 440 mm</td>
+<td>600 x 385 mm</td>
+<td>1630 mm</td>
+<td>50 Hz</td>
+<td>MT2</td>
+<td>125 kg</td>
+<td>410 mm</td>
+<td>400 V</td>
+</tr>
+</table>",,,,"id=2643097, pos=1, type=Accessoire optionnel
+id=2643099, pos=2, type=Accessoire optionnel
+id=2641776, pos=3, type=Accessoire optionnel
+id=2641770, pos=4, type=Accessoire optionnel
+id=2641777, pos=5, type=Accessoire optionnel
+id=2641768, pos=6, type=Accessoire optionnel
+id=2641767, pos=7, type=Accessoire optionnel
+id=2641759, pos=8, type=Accessoire optionnel
+","Machines travail des métaux",Perceuses,"Perceuses avec courroie d'entraînement","Exercices professionnels de la colonne",11037,"HU 25F Industry",8718242540711,,,"<table>
+<tr><td>Capacité de perçage</td><td>25 mm</td></tr>
+<tr><td>Course de broche</td><td>100 mm</td></tr>
+<tr><td>Diamètre de la colonne</td><td>80 mm</td></tr>
+<tr><td>Distance max. broche-table</td><td>850 mm</td></tr>
+<tr><td>Distance broche / plaque de base</td><td>1160 mm</td></tr>
+<tr><td>Puissance du moteur</td><td>750 W</td></tr>
+<tr><td>Gamme de vitesse de la broche</td><td>200-2400 tr/min</td></tr>
+<tr><td>Dimensions de la table</td><td>320 x 320 mm</td></tr>
+<tr><td>Nombre de marches</td><td>5 pièces</td></tr>
+<tr><td>Dimensions d'emballage</td><td>1525 x 655 x 440 mm</td></tr>
+<tr><td>Dimensions du pied</td><td>600 x 385 mm</td></tr>
+<tr><td>Hauteur</td><td>1630 mm</td></tr>
+<tr><td>Fréquence</td><td>50 Hz</td></tr>
+<tr><td>Cône de la broche</td><td>MT2</td></tr>
+<tr><td>Poids</td><td>125 kg</td></tr>
+<tr><td>Distance broche-colonne</td><td>410 mm</td></tr>
+<tr><td>Tension</td><td>400 V</td></tr>
+</table>",,"Pallet vervoer,
+Zelf te installeren,
+1 jaar garantie,
+Geschikt voor industrieel gebruik,
+K2 - Machines retail",,https://www.ez-catalog.nl/Asset/95072fb7e003427e958ae914d630a4b6/CatalogueLogo/Huvema-Machine-tools.png,,"https://www.ez-catalog.nl/Asset/38ea372ee2b4465cac2a036b78171fc8/CatalogueIcon/huvema-picto-vervoer-pallet.png,
+https://www.ez-catalog.nl/Asset/64c9a37b7b9747319d090228dc8e44d6/CatalogueIcon/huvema-picto-installeren-zelf.png,
+https://www.ez-catalog.nl/Asset/b894b4e7e9274634b3684ee9b3b2e627/CatalogueIcon/huvema-picto-garantie-1j.png,
+https://www.ez-catalog.nl/Asset/45d983d4cbad4211a04498edd400adef/CatalogueIcon/huvema-picto-lijn-industrial1.png,
+https://www.ez-catalog.nl/Asset/22be6d97c61448869298f00126d1eb27/CatalogueIcon/HUV01100.png","https://www.ez-catalog.nl/Asset/9d3c8f6428c646ec8f2ef6dc37999e41/ImageFullSize/11037.jpg,
+https://www.ez-catalog.nl/Asset/004ba8496e8444f5b2ecc76e2bf868e3/ImageFullSize/11037a.jpg,
+https://www.ez-catalog.nl/Asset/e5a4e7b6b1444155b32f43c71451bad4/ImageFullSize/11037b.jpg,
+https://www.ez-catalog.nl/Asset/3d0ad89c50c24816bdd36c6b4221d490/ImageFullSize/11037c.jpg,
+https://www.ez-catalog.nl/Asset/ce8baeb3b75841ab89bfc04329a8667d/ImageFullSize/11037d.jpg,
+https://www.ez-catalog.nl/Asset/50cd5d2ec5c64355aa6dce51eac0e095/ImageFullSize/11037e.jpg,
+https://www.ez-catalog.nl/Asset/84481ae0ffe14eb6bbe4fc844b96414e/ImageFullSize/11037f.jpg,
+https://www.ez-catalog.nl/Asset/2bfbc7fbfb114aae871abef2ff8bbe7a/ImageFullSize/11037g.jpg,
+https://www.ez-catalog.nl/Asset/7610a8c34908459c820093f3c1a40e35/ImageFullSize/11037h.jpg",,,Active,Active
+3637755,1,,1436313,"Perceuse industrielle","Huvema Machine tools","K1 - Industrie des machines","Foreuse à colonne à usage intensif pour la production, l'industrie. La machine est équipée d'une broche sans jeu et convient à une installation de production, car la tête de la machine peut être réglée à la hauteur d'un convoyeur à rouleaux de production. La machine est équipée d'une plaque moteur robuste et d'un entraînement par courroie crantée. Cela garantit un très faible niveau de bruit et l'absence de vibrations.<br> <br> <br>Propriétés :<br>Equipé d'une lourde plaque de moteur<br>Pied lourd avec rainures en T<br>Arrêt d'urgence au front<br>Housse de protection universelle<br>Hauteur de la tête réglable<br>Table lourde<br>Profondeur de forage facilement réglable","Foreuse à colonne à usage intensif pour la production, l'industrie. La machine est équipée d'une broche sans jeu et convient à une installation de production, car la tête de la machine peut être réglée à la hauteur d'un convoyeur à rouleaux de production. La machine est équipée d'une plaque moteur robuste et d'un entraînement par courroie crantée. Cela garantit un très faible niveau de bruit et l'absence de vibrations.","Propriétés :<br>Equipé d'une lourde plaque de moteur<br>Pied lourd avec rainures en T<br>Arrêt d'urgence au front<br>Housse de protection universelle<br>Hauteur de la tête réglable<br>Table lourde<br>Profondeur de forage facilement réglable",,,,,,"<table>
+</tr>
+<th>Capacité de perçage</th>
+<th>Course de broche</th>
+<th>Diamètre de la colonne</th>
+<th>Distance max. broche-table</th>
+<th>Distance broche / plaque de base</th>
+<th>Puissance du moteur</th>
+<th>Gamme de vitesse de la broche</th>
+<th>Dimensions de la table</th>
+<th>Nombre de marches</th>
+<th>Dimensions d'emballage</th>
+<th>Dimensions du pied</th>
+<th>Hauteur</th>
+<th>Fréquence</th>
+<th>Cône de la broche</th>
+<th>Poids</th>
+<th>Tension</th>
+<th>Distance broche-colonne</th>
+</tr>
+<tr>
+<td>32 mm</td>
+<td>135 mm</td>
+<td>98 mm</td>
+<td>860 mm</td>
+<td>1200 mm</td>
+<td>1100 W</td>
+<td>200-2300 tr/min</td>
+<td>410 x 380 mm</td>
+<td>5 pièces</td>
+<td>1595 x 710 x 610 mm</td>
+<td>650 x 440 mm</td>
+<td>1770 mm</td>
+<td>50 Hz</td>
+<td>MT3</td>
+<td>230 kg</td>
+<td>400 V</td>
+<td>510 mm</td>
+</tr>
+</table>",,,,,"Machines travail des métaux",Perceuses,"Perceuses avec courroie d'entraînement","Exercices professionnels de la colonne",11038,"HU 32F Industry",8718242540728,,,"<table>
+<tr><td>Capacité de perçage</td><td>32 mm</td></tr>
+<tr><td>Course de broche</td><td>135 mm</td></tr>
+<tr><td>Diamètre de la colonne</td><td>98 mm</td></tr>
+<tr><td>Distance max. broche-table</td><td>860 mm</td></tr>
+<tr><td>Distance broche / plaque de base</td><td>1200 mm</td></tr>
+<tr><td>Puissance du moteur</td><td>1100 W</td></tr>
+<tr><td>Gamme de vitesse de la broche</td><td>200-2300 tr/min</td></tr>
+<tr><td>Dimensions de la table</td><td>410 x 380 mm</td></tr>
+<tr><td>Nombre de marches</td><td>5 pièces</td></tr>
+<tr><td>Dimensions d'emballage</td><td>1595 x 710 x 610 mm</td></tr>
+<tr><td>Dimensions du pied</td><td>650 x 440 mm</td></tr>
+<tr><td>Hauteur</td><td>1770 mm</td></tr>
+<tr><td>Fréquence</td><td>50 Hz</td></tr>
+<tr><td>Cône de la broche</td><td>MT3</td></tr>
+<tr><td>Poids</td><td>230 kg</td></tr>
+<tr><td>Tension</td><td>400 V</td></tr>
+<tr><td>Distance broche-colonne</td><td>510 mm</td></tr>
+</table>",,"Pallet vervoer,
+Zelf te installeren,
+1 jaar garantie,
+Geschikt voor industrieel gebruik,
+K2 - Machines retail",,https://www.ez-catalog.nl/Asset/95072fb7e003427e958ae914d630a4b6/CatalogueLogo/Huvema-Machine-tools.png,,"https://www.ez-catalog.nl/Asset/38ea372ee2b4465cac2a036b78171fc8/CatalogueIcon/huvema-picto-vervoer-pallet.png,
+https://www.ez-catalog.nl/Asset/64c9a37b7b9747319d090228dc8e44d6/CatalogueIcon/huvema-picto-installeren-zelf.png,
+https://www.ez-catalog.nl/Asset/b894b4e7e9274634b3684ee9b3b2e627/CatalogueIcon/huvema-picto-garantie-1j.png,
+https://www.ez-catalog.nl/Asset/45d983d4cbad4211a04498edd400adef/CatalogueIcon/huvema-picto-lijn-industrial1.png,
+https://www.ez-catalog.nl/Asset/22be6d97c61448869298f00126d1eb27/CatalogueIcon/HUV01100.png","https://www.ez-catalog.nl/Asset/69120b90fdd4410e8c9a3af8ef9f2a64/ImageFullSize/11038.jpg,
+https://www.ez-catalog.nl/Asset/371bbb43d98c4e9cb7ba27d611884de8/ImageFullSize/11038a.jpg,
+https://www.ez-catalog.nl/Asset/04682f81a396453f86f448011039e527/ImageFullSize/11038b.jpg,
+https://www.ez-catalog.nl/Asset/886bc7ee594d418889bc69f437032898/ImageFullSize/11038c.jpg,
+https://www.ez-catalog.nl/Asset/6c3e68e8b99a4bc2924534ed4998b011/ImageFullSize/11038d.jpg,
+https://www.ez-catalog.nl/Asset/3a7d0c2991724c15b44d2c84d59dee66/ImageFullSize/11038e.jpg,
+https://www.ez-catalog.nl/Asset/4d10f8842839403da27b5dfe3389ee4f/ImageFullSize/11038f.jpg,
+https://www.ez-catalog.nl/Asset/084b5fc6095942dd9ee2f337379eee64/ImageFullSize/11038g.jpg,
+https://www.ez-catalog.nl/Asset/deb1866cf23e4b3c8e2a0bf645b5bed9/ImageFullSize/11038h.jpg",,,Active,Active
