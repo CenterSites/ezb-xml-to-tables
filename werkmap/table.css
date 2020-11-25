@@ -1,0 +1,51 @@
+.specDef{color:green;}
+.spec1{color:blue;}
+.spec2{color:goldenrod;}
+.spec3{color:purple;}
+.spec4{color:red;}
+.spec5{color:darkcyan;}
+.level{color:hotpink; font-size: 110%;}
+
+
+body {
+  margin: 0;
+  padding: 2rem;
+  font-family: verdana;
+}
+
+table {
+  text-align: left;
+  position: relative;
+  font-size: 10px;
+  border-collapse: collapse; 
+}
+th, td {
+  padding: 0.25rem;
+  border: solid 1px #cccccc;
+}
+tr.gray th {
+  background: #999999;
+  color: white;
+  border: solid 1px #ffffff;
+}
+.classLevel {
+  background: #E6E6FA;
+}
+.artLevel {
+  background: #F0FFF0;
+}
+.specificationlevel {
+  background: #E0FFFF;
+}
+
+.exact{
+	background: #FFFACD;
+}
+
+th {
+  background: white;
+  position: sticky;
+  height: 45px;
+  top: 0;
+  box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+}

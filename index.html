@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+<form action="upload.php" method="post" enctype="multipart/form-data">
+	<h1>EzBase XML naar CSV</h1>
+    <h5><a href="https://www.ez-catalog.nl/Export" target="_blank">Download hier eerst een EzBase zipbestand, Formaat: Webshop.xml 3.1</a></h5>
+
+
+
+	<label for="tablePrefix">Prefix DB-Tabel:</label><br>
+	<input type="text" id="tablePrefix" name="tablePrefix"><br><br>
+
+	<label for="tableSuffix">Suffix DB-Tabel (taalcodes):</label><br>
+
+	<input type="radio" name="tableSuffix" value="_NL"> NL
+	<input type="radio" name="tableSuffix" value="_EN"> EN
+	<input type="radio" name="tableSuffix" value="_DE"> DE
+	<input type="radio" name="tableSuffix" value="_FR"> FR
+	<br><br>
+
+    <input type="file" name="fileToUpload" id="fileToUpload">
+    <input type="submit" value="Uploaden" name="Zipbestand Uploaden">
+    <br><br>
+
+
+</form>
+<p style="font-weight:bold;">&copy; 2020 HUVEMA<sup>&reg;</sup><p>
+</body>
+</html>
