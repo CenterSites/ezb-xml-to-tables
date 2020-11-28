@@ -18,6 +18,7 @@ $debug = "on";
 
 $tablePrefix = $argv[1];
 $tableSuffix = $argv[2];
+$ezbZipFileName = $argv[3];
 
 //debuggen
 echo ($debug == 'on' ? "0.0) TABLE PREFIX = ".$tablePrefix. " TABLE SUFFIX = ".$tableSuffix."<br>\n" : "");  
