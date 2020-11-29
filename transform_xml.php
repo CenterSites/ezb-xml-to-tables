@@ -30,7 +30,9 @@ $productsHistory = $tablePrefix."productsHistory".$tableSuffix;
 $productMutations = $tablePrefix."productMutations".$tableSuffix;
 $productsUpsert = $tablePrefix."productsUpsert".$tableSuffix;
 
-$zipToTR = "mag_nl.zip";
+//$zipToTR = "mag_nl.zip";
+$zipToTR = $ezbZipFileName;
+
 $xmlToDB = str_replace("zip","xml", $zipToTR); //geef getransformeerde xml dezelfde naam als de bron zip file
 
 
