@@ -324,6 +324,7 @@ function unzipAndTransform($zipfile, $xmlToDB){
 		}
 }
 
+// this takes a lot of time
 function transformXML($xmlFile, $xlsFile, $transformedXmlFilename){
 			$xmlDoc = new DOMDocument('1.0');
 			$xmlDoc->formatOutput = true;
