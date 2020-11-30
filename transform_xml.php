@@ -112,7 +112,7 @@ $sqlCreate = "CREATE TABLE $db.$productsImport LIKE $db.productsStructure";
 //$xmlFileEZB = str_replace("Result-","", $xmlToDB); // xmlFileEZB temp var to test without transforming XML
 
 //Pulk de waarden uit de XML
-$xml = simplexml_load_file("zip/".$xmlToDB) or die("Error: Cannot create object");
+$xml = simplexml_load_file("xml/".$xmlToDB) or die("Error: Cannot create object");
 	$rows = 0;
 	##recordxpath
 	$articleRecords = $xml->xpath('/Webshop/ArticleGroups/ArticleGroup/Articles/Article');
