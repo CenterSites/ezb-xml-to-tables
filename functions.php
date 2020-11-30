@@ -311,7 +311,7 @@ function unzipAndTransform($zipfile, $xmlToDB){
 			$xmlfilename = str_replace("zip","xml", $zipfile);
 
 			//XLS TRANSFORMEREN FUNCTIE
-		 	transformXML($xmlfilename, '14XSLT.xsl', $xmlToDB);
+		 	//transformXML($xmlfilename, '14XSLT.xsl', $xmlToDB);
 
 		} else {
 		  //debuggen
