@@ -218,25 +218,6 @@ function getProperties($record, $toSpecIs){
 
 
 
-
-/*
-function getPropertiesToSpec($record){
-	$tableRow = array();
-	$tableRow[] = '<table>'."\n";
-	$TableProperties = $record->xpath('TableProperties/Property[@toSpecification="true"][@isHidden="false"]');  
-		foreach($TableProperties as $Property){
-			$rowCells = '<tr><td>'.$Property->attributes()->headername.'</td><td>'. $Property->Value.'</td></tr>'."\n";
-			$tableRow[] = $rowCells;
-		}
-
-	$tableRow[] = '</table>';	
-	$tableRows = implode('', $tableRow);
-	return $tableRows;
-	//print_r($tableRows);
-}
-*/
-
-
 function getRelated($record){
 	$related = array();
 	//$tableRow[] = '<table>'."\n";
@@ -255,15 +236,6 @@ function getRelated($record){
 
 
 
-function getRelateOUD($record, $att){
-	$relatedArticles = $record->xpath('RelatedArticles/Article');  
-		foreach($relatedArticles as $relatedArticle){
-			$relatedData = $relatedArticle->attributes()->id;
-		}
-	return $relatedData;
-	print_r($relatedData);
-
-}
 
 
 
@@ -305,13 +277,12 @@ function unzipAndTransform($zipfile, $xmlToDB){
 		  GLOBAL $debug;
 		  echo ($debug == 'on' ? "1.0) $path / $zipfile unzipped en deleted<br>\n" : "");
 
-
 		  
 		  	//xml dezelfde filename geven als de zip
 			$xmlfilename = str_replace("zip","xml", $zipfile);
 
-			//XLS TRANSFORMEREN FUNCTIE
-		 	//transformXML($xmlfilename, '14XSLT.xsl', $xmlToDB);
+			//XLS TRANSFORM TAKE LONG
+		 	transformXML($xmlfilename, '14XSLT.xsl', $xmlToDB);
 
 		} else {
 		  //debuggen
