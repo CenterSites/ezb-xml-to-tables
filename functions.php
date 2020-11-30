@@ -300,8 +300,9 @@ function unzipAndTransform($zipfile, $xmlToDB){
 		  echo ($debug == 'on' ? "1.0) $path / $zipfile unzipped en deleted<br>\n" : "");
 
 
+		  	////XML TransFormatie gaat te traag, dat gaan we anders doen.
 		  	//xml dezelfde filename geven als de zip
-			$xmlfilename = str_replace("zip","xml", $zipfile);
+			//$xmlfilename = str_replace("zip","xml", $zipfile);
 
 			//XLS TRANSFORMEREN FUNCTIE
 		 	//transformXML($xmlfilename, '12XSLT.xsl', $xmlToDB);
