@@ -31,6 +31,21 @@ function getClassifications($record, $depth, $attname){
 	} 
 } 
 
+
+function getClassificationArtGrp($record, $att){
+	$classificationID = $record->xpath('ancestor::ArticleGroup/Classifications/Classification/@id');   
+
+
+		return $classificationID;
+
+} 
+
+
+
+
+
+
+
 function getArticleGroupData($record, $element, $Node_Att){
 				$artGroups = $record->xpath('ancestor::ArticleGroup');   
 	         	foreach($artGroups as $artGroup){
