@@ -151,7 +151,7 @@ $xml = simplexml_load_file("xml/".$xmlToDB) or die("Error: Cannot create object"
 
 				$c17 = getClassifications($record, 1, "name");
 				$c18 = getClassifications($record, 2, "name");
-				$c19 = getClassifications($record, 3, "name");
+				$c19 = getClassificationLevels($record, "id");
 				$c20 = getClassificationArtGrp($record, "id");
 
 				$c21 = $record->ArticleNumber;

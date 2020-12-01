@@ -33,13 +33,27 @@ function getClassifications($record, $depth, $attname){
 
 
 function getClassificationArtGrp($record, $att){
-	$classificationIDS = $record->xpath('ancestor::ArticleGroup/Classifications/Classification');   
+	$ArtGrpClassificationIDS = $record->xpath('ancestor::ArticleGroup/Classifications/Classification');   
 
-
-
-	foreach($classificationIDS as $cID){
+	foreach($ArtGrpClassificationIDS as $cID){
 			$artGrpClassId = (string) $cID->attributes()->$att;
 		return $artGrpClassId;
+
+	}
+} 
+
+
+function getClassificationLevels($record, $att){
+
+	//get classification id from the articleGroup
+	$artCLassID = getClassificationArtGrp($record, "id");
+
+
+	$classificationIDS = $record->xpath('Webshop/Classification/Node[@id="'.$artCLassID.'"]');   
+
+	foreach($classificationIDS as $cID){
+			$Node = (string) $cID->attributes()->$att;
+		return $Node;
 
 	}
 } 
