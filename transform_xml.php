@@ -10,10 +10,7 @@ include 'functions.php';
 
 global $debug;
 $debug = "on";
-
-
-
-
+$rustart = getrusage();
 
 
 $tablePrefix = $argv[1];
@@ -211,6 +208,15 @@ UpsertHistoryTable ($host,$db,$user,$pass, $productsUpsert, $productMutations);
 //opruimen
 mysqli_close($mysqli);
 echo ($debug == 'on' ? "6.1) Database verbinding gesloten <br>\n" : "");
+
+
+$ru = getrusage();
+echo "This process used " . rutime($ru, $rustart, "utime") .
+    " ms for its computations\n";
+echo "It spent " . rutime($ru, $rustart, "stime") .
+    " ms in system calls\n";
+
+
 
 //debuggen data
 /*
