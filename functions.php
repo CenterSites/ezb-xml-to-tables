@@ -22,6 +22,7 @@ function getSpecificationText($type, $record, $headerFooter){
 	}
 }   
 
+//oude verie via XST
 function getClassifications($record, $depth, $attname){
 	$classificationLevels = $record->xpath('ancestor::ArticleGroup/Classifications/Classification/group['.$depth.']');   
 	foreach($classificationLevels as $level){
@@ -32,31 +33,90 @@ function getClassifications($record, $depth, $attname){
 } 
 
 
-function getClassificationArtGrp($record, $att){
-	$ArtGrpClassificationIDS = $record->xpath('ancestor::ArticleGroup/Classifications/Classification');   
 
-	foreach($ArtGrpClassificationIDS as $cID){
+
+///GET CLASSIFICATION DATA
+///ID FROM ARTGROUP TO WALK UP THE THREE FROM HERE
+
+function getClassificationIdFromArtGrp($record, $att){ //needs id from group
+	$ArtGrpClassificationID = $record->xpath('ancestor::ArticleGroup/Classifications/Classification');   
+
+	foreach($ArtGrpClassificationID as $cID){
 			$artGrpClassId = (string) $cID->attributes()->$att;
-		return $artGrpClassId;
-
 	}
+return $artGrpClassId;
 } 
 
 
-function getClassificationLevels($record, $att){
 
-	//get classification id from the articleGroup
-	$artCLassID = getClassificationArtGrp($record, "id");
+function getParentID($record, $ID){ // needs parent from one level up
+	$classificationPR = $record->xpath('/Webshop/Classification/Node[@parent="'.$ID.'"]');  
+		foreach($classificationPR as $cID){
+			$parent = "parent";
+			$Node = (string) $cID->attributes()->$parent;
+			$theNode = $Node;
+		}
+
+return $theNode;		
+}
 
 
-	$classificationIDS = $record->xpath('Webshop/Classification/Node[@id="'.$artCLassID.'"]');   
 
-	foreach($classificationIDS as $cID){
-			$Node = (string) $cID->attributes()->$att;
-		return $Node;
+////GET LEVELS
+function getClassificationLevel($record, $att, $depth, $tag){
+
+	if($att == "id"){
+
+		//get the parentId with the artGroupClassification ID
+		//get classification id from the articleGroup
+		$ID = getClassificationIdFromArtGrp($record, $att);
+		$classification = $record->xpath('/Webshop/Classification/Node[@id="'.$ID.'"][@depth="'.$depth.'"]'); 
+
+
+			foreach($classification as $cID){
+					$tag = 		(string) $cID->$tag;
+					$parent =	(string) $cID->attributes()->parent;
+					$id = 		(string) $cID->attributes()->id;
+
+					$Node = $att."\n".$tag."\n".$parent."\n".$id;
+			}		
+	}
+
+
+
+
+
+
+	if($att == "parent"){
+
+
+		//287613 is @parent uit level4 en is voor de @id in level3		
+		$IDP = getParentID($record, "287613"); 	
+		$classification = $record->xpath('/Webshop/Classification/Node[@id="'.$IDP.'"][@depth="'.$depth.'"]');
+
+			foreach($classification as $cID){
+
+					$tag = 		(string) $cID->$tag;
+					$parent =	(string) $cID->attributes()->parent;
+					$id = 		(string) $cID->attributes()->id;
+
+					$Node = $att."\n".$tag."\n".$parent."\n".$id;
+			}
 
 	}
+return $Node;
 } 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
