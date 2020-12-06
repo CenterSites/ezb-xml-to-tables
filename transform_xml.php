@@ -149,13 +149,11 @@ $xml = simplexml_load_file("xml/".$xmlToDB) or die("Error: Cannot create object"
 				//$c15 = getSpecificationText('5 Promo', $record, 'Header');
 				$c16 = getRelated($record, 'id');
 
-				//$c17 = getClassifications($record, 1, "name");
-
 				
-				$c17 = getClassificationLevel($record, "parent", "1", "Name");
-				$c18 = getClassificationLevel($record, "parent", "2", "Name");
-				$c19 = getClassificationLevel($record, "parent", "3", "Name");
-				$c20 = getClassificationLevel($record, "id", "4", "Name");
+				$c17 = walkUpTheParents($record, "parent", "1", "Name");
+				$c18 = walkUpTheParents($record, "parent", "2", "Name");
+				$c19 = walkUpTheParents($record, "parent", "3", "Name");
+				$c20 = walkUpTheParents($record, "parent", "4", "Name");
 
 				$c21 = $record->ArticleNumber;
 				$c22 = $record->TypeNumber;
