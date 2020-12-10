@@ -309,7 +309,7 @@ function getPropertiesTransposed($record, $toSpecIs){
 
 		if (!empty($TableProperties)){
 				$tableRow = array();
-				$tableRow[] = '<table>'."\n".'</tr>'."\n";
+				$tableRow[] = '<table>'."\n".'<tr>'."\n";
 
 				foreach($TableProperties as $Property){
 					$rowCells = '<th>'.$Property->attributes()->headername.'</th>'."\n";
