@@ -20,13 +20,7 @@ function getSpecificationText($type, $record, $headerFooter){
 			$aGrText = (string) $aGrS->$headerFooter;
 
 
-			//maak een LI lijst van BR tags
-			if($type == "4 Catalogus" && $headerFooter == "Footer"){
-				return makeLiList($aGrText);	
-
-			}else{
-				return $aGrText;
-			}
+			return $aGrText;
 	}
 }   
 
