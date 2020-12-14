@@ -18,9 +18,31 @@ function getSpecificationText($type, $record, $headerFooter){
 	$artGroupSpecifications = $record->xpath('ancestor::ArticleGroup/Specifications/Specification[@type="'.$type.'"]');   
 	foreach($artGroupSpecifications as $aGrS){
 			$aGrText = (string) $aGrS->$headerFooter;
-		return $aGrText;
+
+
+			//maak een LI lijst van BR tags
+			if($type == "4 Catalogus" && $headerFooter == "Footer"){
+				return makeLiList($aGrText);	
+
+			}else{
+				return $aGrText;
+			}
 	}
 }   
+
+
+function makeLiList($desc){
+
+	        $DescriptionAddLi = "<div class='nicebullets icon-checkmark'><li><span>".$desc."</span></li></div>";
+	        $DescriptionList1 = str_replace("<br>","<br />",$DescriptionAddLi);
+	        $DescriptionList2 = str_replace("<br />","</li><li>",$DescriptionList1);
+
+        return $DescriptionList2;
+
+}
+
+
+
 
 //oude verie via XST
 function getClassifications($record, $depth, $attname){
